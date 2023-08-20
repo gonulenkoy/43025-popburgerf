@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.logo {
+  width: 160px;
+}
+
+body {
+  background-color: #ff8b00;
+}
+
+header {
+  background-color: #ff8b00;
+}
+
+.fonts {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #1e1e1e;
+}
+
+.fonts li a:hover {
+  color: white;
+}
+
+h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 140px;
+  line-height: 110px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  text-transform: uppercase;
+  color: white;
+}
+
+h3 {
+  font-family: "Cherry Bomb One", sans-serif;
+  color: #1e1e1e;
+  font-size: 50px;
+}
+
+p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.welcome {
+  margin-top: 50px;
+}
+
+.welcomeP {
+  padding-top: 25px;
+}
+
+.bookingTitle {
+  color: #1e1e1e;
+  font-size: 120px;
+}
+
+.btn {
+  background-color: #1e1e1e;
+}
+
+.bookImg {
+  margin-top: 50px;
+}
+
+.descriptionKitchen {
+  padding: 100px;
+}
+
+.ourKitchen {
+  background-color: #f4e9dc;
+}
+
+.pKitchen {
+  color: #1e1e1e;
+}
+
+.footer {
+  background-color: #ff8b00;
+}
+
+.hHistory {
+  color: #1e1e1e;
+}
+
+.cook {
+  padding-top: 125px;
+}
+
+.formText {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

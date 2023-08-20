@@ -1,0 +1,112 @@
+@import "fonts";
+@import "variables";
+
+@mixin font($font-family) {
+    font-family: $font-family, sans-serif;
+}
+.logo {
+  width: 160px;
+}
+
+body {
+  background-color: $primary-color;
+}
+
+header {
+  background-color: $primary-color;
+}
+
+.fonts {
+  @include font('Barlow Condensed');
+  font-weight: 600;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: $secondary-color;
+}
+
+.fonts li a:hover {
+  color: white;
+}
+
+h1 {
+  @include font('Barlow Condensed');
+  font-weight: 600;
+  font-size: 140px;
+  line-height: 110px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+h2 {
+  @include font('Barlow Condensed');
+  font-weight: 600;
+  font-size: 100px;
+  text-transform: uppercase;
+  color: white;
+}
+
+h3 {
+  @include font('Cherry Bomb One');
+  color: $secondary-color;
+  font-size: 50px;
+}
+
+p {
+  color: white;
+  @include font ('Roboto');
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.welcome {
+  margin-top: 50px;
+}
+
+.welcomeP {
+  padding-top: 25px;
+}
+
+.bookingTitle {
+  color: $secondary-color;
+  font-size: 120px;
+}
+
+.btn {
+  background-color: $secondary-color;
+}
+
+.bookImg {
+  margin-top: 50px;
+}
+
+.descriptionKitchen {
+  padding: 100px;
+}
+
+.ourKitchen {
+  background-color: #f4e9dc;
+}
+
+.pKitchen {
+  color: $secondary-color;
+}
+
+.footer {
+  background-color: $primary-color;
+}
+
+.hHistory {
+  color: $secondary-color;
+}
+
+.cook {
+  padding-top: 125px;
+}
+
+.formText {
+  color: white;
+  @include font ('Roboto');
+  font-weight: 500;
+  font-size: 15px;
+}
+
